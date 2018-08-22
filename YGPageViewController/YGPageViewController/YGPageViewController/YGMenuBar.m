@@ -16,6 +16,20 @@
 
 @implementation YGMenuBar
 
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self commonInit];
+    }
+    return self;
+}
+
+
+- (void)commonInit {
+    
+}
+
 
 
 @end
