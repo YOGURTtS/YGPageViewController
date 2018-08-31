@@ -8,9 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum : NSUInteger {
+    YGMenubarSliderTypeBottom,
+    YGMenubarSliderTypeTop,
+    YGMenubarSliderTypeAround,
+} YGMenubarSliderType;
+
 @interface YGConfig : NSObject
 
+/// height of menubar
 @property(nonatomic, assign) CGFloat menuBarHeight;
+/// wether to show slider
+@property (nonatomic, assign, getter=isShowSlider) BOOL showSlider;
 
 
 @end
