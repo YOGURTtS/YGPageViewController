@@ -18,6 +18,7 @@
 		787D52602126BD230011291F /* YGMenuBarBottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 787D525F2126BD230011291F /* YGMenuBarBottomLine.m */; };
 		787D52632126BDCE0011291F /* YGRealPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 787D52622126BDCE0011291F /* YGRealPageViewController.m */; };
 		787D52662126C9730011291F /* YGConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 787D52652126C9730011291F /* YGConfig.m */; };
+		78F417BC213942970014AB5E /* YGMenuBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F417BB213942970014AB5E /* YGMenuBarItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		787D52622126BDCE0011291F /* YGRealPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGRealPageViewController.m; sourceTree = "<group>"; };
 		787D52642126C9730011291F /* YGConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGConfig.h; sourceTree = "<group>"; };
 		787D52652126C9730011291F /* YGConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGConfig.m; sourceTree = "<group>"; };
+		78F417BA213942970014AB5E /* YGMenuBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGMenuBarItem.h; sourceTree = "<group>"; };
+		78F417BB213942970014AB5E /* YGMenuBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGMenuBarItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				787D52592126BC7D0011291F /* YGPageViewController.m */,
 				787D525B2126BCA20011291F /* YGMenuBar.h */,
 				787D525C2126BCA20011291F /* YGMenuBar.m */,
+				78F417BA213942970014AB5E /* YGMenuBarItem.h */,
+				78F417BB213942970014AB5E /* YGMenuBarItem.m */,
 				787D525E2126BD230011291F /* YGMenuBarBottomLine.h */,
 				787D525F2126BD230011291F /* YGMenuBarBottomLine.m */,
 				787D52612126BDCE0011291F /* YGRealPageViewController.h */,
@@ -180,6 +185,7 @@
 				787D525A2126BC7D0011291F /* YGPageViewController.m in Sources */,
 				787D52662126C9730011291F /* YGConfig.m in Sources */,
 				787D52512126B6A50011291F /* main.m in Sources */,
+				78F417BC213942970014AB5E /* YGMenuBarItem.m in Sources */,
 				787D52602126BD230011291F /* YGMenuBarBottomLine.m in Sources */,
 				787D525D2126BCA20011291F /* YGMenuBar.m in Sources */,
 				787D52432126B6A30011291F /* AppDelegate.m in Sources */,
